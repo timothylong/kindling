@@ -6,11 +6,11 @@ A responsive grid system, with some trace elements of style and markup.
 
 ### Three Column Layout
 
-`&lt;div class=&quot;row&quot;&gt;
+```&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;span-4 col&quot;&gt;&lt;/div&gt;
     &lt;div class=&quot;span-4 col&quot;&gt;&lt;/div&gt;
     &lt;div class=&quot;span-4 col&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;`
+&lt;/div&gt;```
 
 ## Licensing
 
