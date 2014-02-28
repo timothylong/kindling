@@ -20,5 +20,4 @@ This resource is licensed under a [BY-SA Creative Commons License](http://creati
 
 ## Author
 
-* [timothy-long.com](http://timothy-long.com)
-* [@timothylong](http://twitter.com/timothylong)
+* [Timothy Long](http://timothy-long.com) ([@timothylong](http://twitter.com/timothylong))
