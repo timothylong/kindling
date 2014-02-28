@@ -1,115 +1,9 @@
 /*
     
-    Kindling Grid Framework
+    Kindling Grid
+	A responsive grid system, with some trace elements of style and markup.
 
 */
-
-/*
-    
-    Reset
-    
-*/
-
-	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
-		margin:0;
-		padding:0;
-		border:0;
-		font-size:100%;
-		font:inherit;
-		vertical-align:baseline;
-	}
-	article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
-		display:block;
-	}
-	audio,canvas,video {
-		display:inline-block;
-	}
-	html {
-		font-family:sans-serif;
-		-ms-text-size-adjust:100%;
-		-webkit-text-size-adjust:100%;
-	}
-	body {
-		margin:0;
-	}
-	a {
-		background:transparent;
-	}
-	a:focus,a:active,a:hover {
-		outline:0;
-	}
-	b,strong {
-		font-weight:bold;
-	}
-	hr {
-		-moz-box-sizing:content-box;
-		box-sizing:content-box;
-		height:0;
-	}
-	small {
-		font-size:80%;
-	}
-	sub,sup {
-		font-size:75%;
-		line-height:0;
-		position:relative;
-		vertical-align:baseline;
-	}
-	sup {
-		top:-0.5em;
-	}
-	sub {
-		bottom:-0.25em;
-	}
-	img {
-		border:0;
-	}
-	svg:not(:root) {
-		overflow:hidden;
-	}
-	figure {
-		margin:0;
-	}
-	button,input,select,textarea {
-		font-family:inherit;
-		font-size:100%;
-		margin:0;
-	}
-	button,input {
-		line-height:normal;
-	}
-	button,select {
-		text-transform:none;
-	}
-	button,html input[type="button"],input[type="reset"],input[type="submit"] {
-		-webkit-appearance:button;
-		cursor:pointer;
-	}
-	button[disabled],html input[disabled] {
-		cursor:default;
-	}
-	input[type="checkbox"],input[type="radio"] {
-		box-sizing:border-box;
-		padding:0;
-	}
-	input[type="search"] {
-		-webkit-appearance:textfield;
-		-moz-box-sizing:content-box;
-		-webkit-box-sizing:content-box;
-		box-sizing:content-box;
-	}
-	button::-moz-focus-inner,input::-moz-focus-inner {
-		border:0;
-		padding:0;
-	}
-	textarea {
-		overflow:auto;
-		vertical-align:top;
-	}
-	table {
-		border-collapse:collapse;
-		border-spacing: 0;
-	}
 
 /*
     
@@ -118,33 +12,18 @@
 */
 
 	* {
+		margin: 0;
+		padding: 0;
+		position: relative;
 		-webkit-box-sizing:border-box;
 		-moz-box-sizing:border-box;
 		box-sizing:border-box;
 	}
-	html,button,input,select,textarea {
-		color:#222;
-	}
 	body {
-		font-family:Helvetica,sans-serif;
-		font-size:1em;
-		line-height:140%;
+		font: 300 125%/150% sans-serif;
 	}
-	.col img {
-		max-width:100%;
-		height:auto;
-	}
-	a,a:visited {
-		color:#e74c3c;
-		-webkit-transition:all 0.3s;
-		transition:all 0.3s;
-	}
-	a:focus {
+	a:active,a:hover,a:focus {
 		outline:0;
-	}
-	a:active,a:hover {
-		outline:0;
-		color:#e74c3c;
 	}
 
 /*
@@ -174,6 +53,10 @@
 	}
 	.col:last-child {
 		margin-right:0;
+	}
+	.col img {
+		max-width:100%;
+		height:auto;
 	}
 	.container {
 		width:90%;
@@ -263,9 +146,9 @@
 */
 
 	h1,h2,h3,h4,h5,h6 {
-		font-weight:bold;
-		margin:0 0 2rem;
 		line-height:140%;
+		font-weight:300;
+		margin:0 0 2rem;
 	}
 	h1 {
 		font-size:300%;
@@ -296,10 +179,6 @@
 */
 
 	@media only screen and (max-width:768px) {
-		.container {
-			width:85%;
-			margin:0 auto;
-		}
 		.col {
 			margin-left:0;
 		}
