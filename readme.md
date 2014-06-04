@@ -23,4 +23,4 @@ This resource is licensed under a [BY-SA Creative Commons License](http://creati
 ## Author
 
 * [Timothy Long](http://timothy-long.com) ([@timothylong](http://twitter.com/timothylong))
-* [Brincken]
+* [Brincken](http://github.com/Brincken)
