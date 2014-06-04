@@ -1,15 +1,48 @@
 <!DOCTYPE html>
-<head>
-	<meta charset="utf-8">
-	<title></title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/kindling.css">
-	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-</head>
-<body>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Kindling Grid Example</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/kindling.css">
+
+		<style>	
+		/*   These classes can be removedm, both from the DIV's and the internal style.   */
+			.grid1 {
+				background: red;
+			}
+			.grid2 {
+				background: blue;
+			}
+			.grid3 {
+				background: yellow;
+			}
+			.grid4 {
+				background: green;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<header>
+			<div class="row flex">
+				<div class="span-12 col-menu grid4 flex">
+					<h1><a href="#"> 1 </a></h1>
+					<h1><a href="#"> 2 </a></h1>
+					<h1><a href="#"> 3 </a></h1>
+				</div>
+			</div>
+		</header>
 	<div class="container">
-		<div class="row"></div>
+		<div class="row flex">
+			<div class="span-2 col grid1"><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut aliquam ligula. Vivamus nec justo tempor, semper ante vestibulum, accumsan risus. Curabitur non enim mi. Integer eleifend augue vel dictum imperdiet. Nunc hendrerit at erat at congue. Integer porta bibendum felis, sit amet aliquet erat vestibulum in. Donec viverra turpis nec accumsan tristique. Sed vestibulum, nisl ac vestibulum congue, odio turpis tincidunt neque, ac vulputate odio nisi sit amet sem. Curabitur euismod dolor nec nisl mollis, feugiat consectetur justo tincidunt. Integer enim leo, blandit id molestie quis, venenatis nec ante.
+Ut pulvinar lectus convallis nibh vestibulum, sed cursus quam pulvinar. Sed ultricies tortor et justo faucibus, in pulvinar orci varius. Ut augue quam, mollis a justo et, egestas tempus risus. Nam rutrum placerat libero vitae tempor. Quisque ultricies purus in metus convallis eleifend venenatis nec tortor. In eleifend, leo eget adipiscing tincidunt, quam nulla interdum lorem, eu luctus sem lorem sed augue. Donec luctus faucibus nisi eu bibendum. Fusce viverra arcu sit amet ornare sagittis. Etiam nibh sem, malesuada lacinia ultricies ultrices, vulputate ut elit. Proin quis augue eu ligula volutpat tincidunt in a elit. Curabitur ullamcorper augue sit amet orci gravida, nec faucibus diam lobortis. Praesent dapibus velit risus, quis volutpat nibh rhoncus sit amet. </p></div>
+			<div class="span-10 col grid2"><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut aliquam ligula. Vivamus nec justo tempor, semper ante vestibulum, accumsan risus. Curabitur non enim mi. Integer eleifend augue vel dictum imperdiet. Nunc hendrerit at erat at congue. Integer porta bibendum felis, sit amet aliquet erat vestibulum in. Donec viverra turpis nec accumsan tristique. Sed vestibulum, nisl ac vestibulum congue, odio turpis tincidunt neque, ac vulputate odio nisi sit amet sem. Curabitur euismod dolor nec nisl mollis, feugiat consectetur justo tincidunt. Integer enim leo, blandit id molestie quis, venenatis nec ante.
+Ut pulvinar lectus convallis nibh vestibulum, sed cursus quam pulvinar. Sed ultricies tortor et justo faucibus, in pulvinar orci varius. Ut augue quam, mollis a justo et, egestas tempus risus. Nam rutrum placerat libero vitae tempor. Quisque ultricies purus in metus convallis eleifend venenatis nec tortor. In eleifend, leo eget adipiscing tincidunt, quam nulla interdum lorem, eu luctus sem lorem sed augue. Donec luctus faucibus nisi eu bibendum. Fusce viverra arcu sit amet ornare sagittis. Etiam nibh sem, malesuada lacinia ultricies ultrices, vulputate ut elit. Proin quis augue eu ligula volutpat tincidunt in a elit. Curabitur ullamcorper augue sit amet orci gravida, nec faucibus diam lobortis. Praesent dapibus velit risus, quis volutpat nibh rhoncus sit amet. </p></div>
+		</div>
 	</div>
-</body>
+	
+	</body>
 </html>
