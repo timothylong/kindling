@@ -7,11 +7,13 @@ A responsive grid system, with some trace elements of style and markup.
 ### Three Column Layout
 
 ```
-<div class="row">
-	<div class="span-3 col"></div>
-	<div class="span-3 col"></div>
-	<div class="span-3 col"></div>
-</div>
+<div class="container">
+		<div class="row flex">
+			<div class="span-3 col"></div>
+			<div class="span-3 col"></div>
+			<div class="span-3 col"></div>
+		</div>
+	</div>
 ```
 
 ## Licensing
