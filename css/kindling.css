@@ -14,10 +14,6 @@
 	* {
 		margin: 0;
 		padding: 0;
-		position: relative;
-		-webkit-box-sizing:border-box;
-		-moz-box-sizing:border-box;
-		box-sizing:border-box;
 	}
 	body {
 		font: 300 125%/150% sans-serif;
@@ -31,6 +27,11 @@
     Grid
 
 */
+	.col, .row {
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
 
 	.row:after,.col:after {
 		content:"";
