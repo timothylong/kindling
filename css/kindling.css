@@ -25,6 +25,13 @@
 	a:active,a:hover,a:focus {
 		outline:0;
 	}
+	.cf:before,.cf:after {
+		content:" ";
+		display:table;
+	}
+	.cf:after {
+		clear: both;
+	}
 
 /*
 
@@ -32,7 +39,7 @@
 
 */
 
-	.row:after,.col:after {
+	.row:after {
 		content:"";
 		display:block;
 		height:0;
@@ -45,22 +52,18 @@
 	.bottom {
 		margin-bottom:0;
 	}
-	.col {
+	[class*=span-] {
 		display:block;
 		float:left;
 		width:100%;
 		margin-right:2%;
 	}
-	.col:last-child {
+	[class*=span-]:last-child {
 		margin-right:0;
 	}
-	.col img {
+	[class*=span-] img {
 		max-width:100%;
-		height:auto;
-	}
-	.container {
-		width:90%;
-		margin:0 5%;
+		display: block;
 	}
 	.span-1 {
 		width:6.5%;
@@ -179,9 +182,6 @@
 */
 
 	@media only screen and (max-width:768px) {
-		.col {
-			margin-left:0;
-		}
 		.row {
 			margin:0;
 		}
