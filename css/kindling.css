@@ -1,7 +1,6 @@
 /*
     
     Kindling Grid
-	A responsive grid system, with some trace elements of style and markup.
 
 */
 
@@ -65,82 +64,35 @@
 		max-width:100%;
 		display: block;
 	}
-	.span-1 {
-		width:6.5%;
-	}
-	.span-2 {
-		width:15.0%;
-	}
-	.span-3 {
-		width:23.5%;
-	}
-	.span-4 {
-		width:32.0%;
-	}
-	.span-5 {
-		width:40.5%;
-	}
-	.span-6 {
-		width:49.0%;
-	}
-	.span-7 {
-		width:57.5%;
-	}
-	.span-8 {
-		width:66.0%;
-	}
-	.span-9 {
-		width:74.5%;
-	}
-	.span-10 {
-		width:83.0%;
-	}
-	.span-11 {
-		width:91.5%;
-	}
-	.span-12 {
-		width:100%;
-	}
 
-/* 
+	/* Columns */
 
-	Offsets
+	.span-1 { width:6.5%; }
+	.span-2 { width:15.0%; }
+	.span-3 { width:23.5%; }
+	.span-4 { width:32.0%; }
+	.span-5 { width:40.5%; }
+	.span-6 { width:49.0%; }
+	.span-7 { width:57.5%; }
+	.span-8 { width:66.0%; }
+	.span-9 { width:74.5%; }
+	.span-10 { width:83.0%; }
+	.span-11 { width:91.5%; }
+	.span-12 { width:100%; }
 
-*/
+	/* Offsets */
     
-	.offset-1 {
-		margin-left:6.5%;
-	}
-	.offset-2 {
-		margin-left:17.0%;
-	}
-	.offset-3 {
-		margin-left:25.5%;
-	}
-	.offset-4 {
-		margin-left:34.0%;
-	}
-	.offset-5 {
-		margin-left:42.5%;
-	}
-	.offset-6 {
-		margin-left:51.0%;
-	}
-	.offset-7 {
-		margin-left:59.5%;
-	}
-	.offset-8 {
-		margin-left:68.0%;
-	}
-	.offset-9 {
-		margin-left:76.5%;
-	}
-	.offset-10 {
-		margin-left:85.0%;
-	}
-	.offset-11 {
-		margin-left:93.5%;
-	}
+	.offset-1 { margin-left:6.5%; }
+	.offset-2 { margin-left:17.0%; }
+	.offset-3 { margin-left:25.5%; }
+	.offset-4 { margin-left:34.0%; }
+	.offset-5 { margin-left:42.5%; }
+	.offset-6 { margin-left:51.0%; }
+	.offset-7 { margin-left:59.5%; }
+	.offset-8 { margin-left:68.0%; }
+	.offset-9 { margin-left:76.5%; }
+	.offset-10 { margin-left:85.0%; }
+	.offset-11 { margin-left:93.5%; }
 
 /*
 
@@ -153,27 +105,13 @@
 		font-weight:300;
 		margin:0 0 2rem;
 	}
-	h1 {
-		font-size:300%;
-	}
-	h2 {
-		font-size:250%;
-	}
-	h3 {
-		font-size:200%;
-	}
-	h4 {
-		font-size:125%;
-	}
-	h5 {
-		font-size:100%;
-	}
-	h6 {
-		font-size:80%;
-	}
-	p {
-		margin-bottom:2rem;
-	}
+	h1 { font-size:300%; }
+	h2 { font-size:250%; }
+	h3 { font-size:200%; }
+	h4 { font-size:125%; }
+	h5 { font-size:100%; }
+	h6 { font-size:80%; }
+	p { margin-bottom:2rem; }
 
 /*
 
@@ -188,6 +126,9 @@
 		.span-1,.span-2,.span-3,.span-4,.span-5,.span-6,.span-7,.span-8,.span-9,.span-10,.span-11,.span-12 {
 			width:100%;
 			margin-bottom: 2%;
+		}
+		.offset-1,.offset-2,.offset-3,.offset-4,.offset-5,.offset-6,.offset-7,.offset-8,.offset-9,.offset-10,.offset-11 {
+			margin-left: 0;
 		}
 	}
 
