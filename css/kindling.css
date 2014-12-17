@@ -123,11 +123,11 @@
 		.row {
 			margin:0;
 		}
-		.span-1,.span-2,.span-3,.span-4,.span-5,.span-6,.span-7,.span-8,.span-9,.span-10,.span-11,.span-12 {
+		[class*=span-] {
 			width:100%;
 			margin-bottom: 2%;
 		}
-		.offset-1,.offset-2,.offset-3,.offset-4,.offset-5,.offset-6,.offset-7,.offset-8,.offset-9,.offset-10,.offset-11 {
+		[class*=offset-] {
 			margin-left: 0;
 		}
 	}
