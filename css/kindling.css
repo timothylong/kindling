@@ -55,10 +55,10 @@
 		display:block;
 		float:left;
 		width:100%;
-		margin-right:2%;
+		margin-left:2%;
 	}
-	[class*=span-]:last-child {
-		margin-right:0;
+	[class*=span-]:first-child {
+		margin-left:0;
 	}
 	[class*=span-] img {
 		max-width:100%;
