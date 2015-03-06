@@ -1,0 +1,9 @@
+{
+	"name": "kindling-grid",
+	"version": "1.0.0",
+	"main": "css/kindling.css",
+	"ignore": [
+		"readme.md",
+		"index.html"
+	]
+}
