@@ -1,6 +1,8 @@
 {
 	"name": "kindling-grid",
 	"version": "1.0.0",
+	"author": "timothylong",
+	"description": "A responsive grid system, with some trace elements of style and markup.",
 	"main": "css/kindling.css",
 	"ignore": [
 		"readme.md",
