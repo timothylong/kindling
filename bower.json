@@ -1,11 +1,25 @@
 {
 	"name": "kindling-grid",
 	"version": "1.0.0",
-	"author": "timothylong",
+	"authors": [
+		"timothylong"
+	],
 	"description": "A responsive grid system, with some trace elements of style and markup.",
 	"main": "css/kindling.css",
+	"moduleType": [
+		"globals"
+	],
+	"keywords": [
+		"css",
+		"grid",
+		"framework",
+		"design"
+	],
+	"license": "CC BY-SA 3.0",
+	"homepage": "http://timothy-long.com/kindling",
 	"ignore": [
-		"readme.md",
-		"index.html"
+		"**/.*",
+		"node_modules",
+		"bower_components"
 	]
 }
