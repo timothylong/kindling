@@ -1,6 +1,6 @@
-# [Kindling (Grid)](http://timothy-long.com/kindling)
+# [Kindling](http://timothy-long.com/kindling)
 
-A responsive grid system, with some trace elements of style and markup.
+A responsive grid system, with trace elements of style and markup.
 
 ## Usage
 
@@ -14,10 +14,14 @@ A responsive grid system, with some trace elements of style and markup.
 </div>
 ```
 
+## Package Management
+
+Bower: ```bower install kindling --save```
+
 ## Licensing
 
 This resource is licensed under a [BY-SA Creative Commons License](http://creativecommons.org/licenses/by-sa/3.0/). You have the freedom to copy, adapt, and transmit this resource in any manner you see fit.
 
 ## Author
 
-* [Timothy Long](http://timothy-long.com) ([@timothylong](http://twitter.com/timothylong))
+* [Timothy Long](http://timothylong.com) ([@timothylong](http://twitter.com/timothylong))

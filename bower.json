@@ -1,10 +1,10 @@
 {
-	"name": "kindling-grid",
+	"name": "kindling",
 	"version": "1.0.0",
 	"authors": [
 		"Timothy Long"
 	],
-	"description": "A responsive grid system, with some trace elements of style and markup.",
+	"description": "A responsive grid system, with trace elements of style and markup.",
 	"main": "css/kindling.css",
 	"moduleType": [
 		"globals"
