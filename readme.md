@@ -16,7 +16,7 @@ A responsive grid system, with trace elements of style and markup.
 
 ## Package Management
 
-Bower: ```bower install kindling --save```
+Bower: ```bower install kindling```
 
 ## Licensing
 
