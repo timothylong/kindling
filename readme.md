@@ -4,13 +4,23 @@ A responsive grid system, with trace elements of style and markup.
 
 ## Usage
 
-### Three Column Layout
+**Simple Three-Column Layout**
 
 ```
-<div class="row">
-	<div class="span-3"></div>
-	<div class="span-3"></div>
-	<div class="span-3"></div>
+<div class=“row”>
+	<div class=“span-4”></div>
+	<div class=“span-4”></div>
+	<div class=“span-4”></div>
+</div>
+```
+
+**Offset Columns Usage**
+
+```
+<div class=“row”>
+    <div class=“span-1”></div>
+    <div class=“span-2 offset-5”></div>
+    <div class=“span-4”></div>
 </div>
 ```
 
