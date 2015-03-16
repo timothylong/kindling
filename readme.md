@@ -1,4 +1,4 @@
-# [Kindling](http://timothy-long.com/kindling)
+# [Kindling](http://timothylong.com/kindling)
 
 A responsive grid system, with trace elements of style and markup.
 
