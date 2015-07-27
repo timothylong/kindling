@@ -1,6 +1,6 @@
 # [Kindling](http://timothylong.com/kindling)
 
-A responsive grid system, with trace elements of style and markup.
+Responsive Grids for Pragmatists.
 
 ## Usage
 
@@ -14,12 +14,12 @@ A responsive grid system, with trace elements of style and markup.
 </div>
 ```
 
-**Offset Columns Usage**
+**Offset Columns**
 
 ```
 <div class=“row”>
-    <div class=“span-1”></div>
-    <div class=“span-2 offset-5”></div>
+    <div class=“span-2”></div>
+    <div class=“span-2 offset-4”></div>
     <div class=“span-4”></div>
 </div>
 ```
@@ -30,8 +30,4 @@ Bower: ```bower install kindling```
 
 ## Licensing
 
-This resource is licensed under a [BY-SA Creative Commons License](http://creativecommons.org/licenses/by-sa/3.0/). You have the freedom to copy, adapt, and transmit this resource in any manner you see fit.
-
-## Author
-
-* [Timothy Long](http://timothylong.com) ([@timothylong](http://twitter.com/timothylong))
+This resource is licensed under a [MIT License](https://github.com/timothylong/kindling/blob/master/license.txt).
