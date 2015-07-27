@@ -30,4 +30,4 @@ Bower: ```bower install kindling```
 
 ## Licensing
 
-This resource is licensed under a [MIT License](https://github.com/timothylong/kindling/blob/master/license.txt).
+This resource is licensed under a [MIT License](https://github.com/timothylong/kindling/blob/master/license.md).
