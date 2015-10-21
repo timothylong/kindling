@@ -90,7 +90,7 @@
 			width:100%;
 			margin-bottom: 2%;
 		}
-		[class*=offset-] {
+		[class*=span-], [class*=offset-] {
 			margin-left: 0;
 		}
 	}
