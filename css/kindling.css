@@ -1,14 +1,12 @@
 /*
     
-    Kindling Grid
+    Kindling
+    —
+    timothylong.com/kindling
 
 */
 
-/*
-    
-    Presets
-
-*/
+/* Presets */
 
 	* {
 		margin: 0;
@@ -26,49 +24,17 @@
 		-moz-osx-font-smoothing:grayscale;
 		text-rendering: optimizeLegibility;
 	}
-	a:active,a:hover,a:focus {
-		outline:0;
-	}
-	.cf:before,.cf:after {
-		content:" ";
-		display:table;
-	}
-	.cf:after {
-		clear: both;
-	}
+	a { outline:0; }
 
-/*
+/* Grid */
 
-    Grid
-
-*/
-
-	.row:after {
-		content:"";
-		display:block;
-		height:0;
-		clear:both;
-		visibility:hidden;
-	}
-	.row {
-		margin-bottom:2%;
-	}
-	.bottom {
-		margin-bottom:0;
-	}
-	[class*=span-] {
-		display:block;
-		float:left;
-		width:100%;
-		margin-left:2%;
-	}
-	[class*=span-]:first-child {
-		margin-left:0;
-	}
-	[class*=span-] img {
-		max-width:100%;
-		display: block;
-	}
+	.row:before,.row:after { content:" "; display:table; }
+	.row:after { clear: both; }
+	.row { margin-bottom:2%; }
+	.bottom { margin-bottom:0; }
+	[class*=span-] { display:block; float:left; width:100%; margin-left:2%; }
+	[class*=span-]:first-child { margin-left:0; }
+	[class*=span-] img { max-width:100%; display: block; }
 
 	/* Columns */
 
@@ -99,11 +65,7 @@
 	.offset-10 { margin-left:85.0%; }
 	.offset-11 { margin-left:93.5%; }
 
-/*
-
-    Type
-
-*/
+/* Typography */
 
 	h1,h2,h3,h4,h5,h6 {
 		line-height:1.5;
@@ -118,13 +80,9 @@
 	h6 { font-size:80%; }
 	p { margin-bottom:2rem; }
 
-/*
+/* Mobile */
 
-    Tablet
-
-*/
-
-	@media only screen and (max-width:768px) {
+	@media only screen and (max-width:800px) {
 		.row {
 			margin:0;
 		}
@@ -136,19 +94,3 @@
 			margin-left: 0;
 		}
 	}
-
-/*
-
-    Mobile
-
-*/
-
-	@media only screen and (max-width: 480px) { }
-
-/*
-
-    Retina Images
-
-*/
-
-	@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { }
