@@ -4,7 +4,7 @@ Responsive Grids for Pragmatists.
 
 ## Usage
 
-**Simple Three-Column Layout**
+**Basic Three-Column Layout**
 
 ```
 <div class=“row”>
@@ -30,4 +30,4 @@ Bower: ```bower install kindling```
 
 ## Licensing
 
-This resource is licensed under a [MIT License](https://github.com/timothylong/kindling/blob/master/license.md).
+This resource is licensed under the [MIT License](https://github.com/timothylong/kindling/blob/master/license.md).
