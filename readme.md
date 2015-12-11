@@ -1,6 +1,6 @@
 # [Kindling](http://timothylong.com/kindling)
 
-Responsive Grids for Pragmatists.
+A grid framework based on the flex display property.
 
 ## Usage
 

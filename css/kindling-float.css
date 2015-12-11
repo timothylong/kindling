@@ -27,45 +27,43 @@
 	a { outline:0; }
 
 /* Grid */
-
-	.row { display: flex; margin-bottom:2%; }
+	
+	.row:before,.row:after { content:" "; display:table; }
+	.row:after { clear: both; }
+	.row { margin-bottom:2%; }
 	.bottom { margin-bottom:0; }
-	.container{
-		max-width: 1200px;
-		margin: 0 auto;
-	}
-	[class*=span-] { flex: 1; margin-left:2%; }
+	[class*=span-] { display:block; float:left; width:100%; margin-left:2%; }
 	[class*=span-]:first-child { margin-left:0; }
 	[class*=span-] img { max-width:100%; display: block; }
 
 	/* Columns */
 
-	.span-1 { flex: 0 0 6.5%; }
-	.span-2 { flex: 0 0 15%; }
-	.span-3 { flex: 0 0 23.5%; }
-	.span-4 { flex: 0 0 32%; }
-	.span-5 { flex: 0 0 40.5%; }
-	.span-6 { flex: 0 0 49%; }
-	.span-7 { flex: 0 0 57.5%; }
-	.span-8 { flex: 0 0 66%; }
-	.span-9 { flex: 0 0 74.5%; }
-	.span-10 { flex: 0 0 83%; }
-	.span-11 { flex: 0 0 91.5%; }
-	.span-12 { flex: 0 0 100%; }
+	.span-1 { width:6.5%; }
+	.span-2 { width:15.0%; }
+	.span-3 { width:23.5%; }
+	.span-4 { width:32.0%; }
+	.span-5 { width:40.5%; }
+	.span-6 { width:49.0%; }
+	.span-7 { width:57.5%; }
+	.span-8 { width:66.0%; }
+	.span-9 { width:74.5%; }
+	.span-10 { width:83.0%; }
+	.span-11 { width:91.5%; }
+	.span-12 { width:100%; }
 
 	/* Offsets */
     
 	.offset-1 { margin-left:6.5%; }
-	.offset-2 { margin-left:19%; }
-	.offset-3 { margin-left:27.5%; }
-	.offset-4 { margin-left:36%; }
-	.offset-5 { margin-left:44.5%; }
-	.offset-6 { margin-left:53%; }
-	.offset-7 { margin-left:61.5%; }
-	.offset-8 { margin-left:70%; }
+	.offset-2 { margin-left:17.0%; }
+	.offset-3 { margin-left:25.5%; }
+	.offset-4 { margin-left:34.0%; }
+	.offset-5 { margin-left:42.5%; }
+	.offset-6 { margin-left:51.0%; }
+	.offset-7 { margin-left:59.5%; }
+	.offset-8 { margin-left:68.0%; }
 	.offset-9 { margin-left:76.5%; }
-	.offset-10 { margin-left:89%; }
-	.offset-11 { margin-left:97.5%; }
+	.offset-10 { margin-left:85.0%; }
+	.offset-11 { margin-left:93.5%; }
 
 /* Typography */
 
@@ -85,8 +83,13 @@
 /* Mobile */
 
 	@media only screen and (max-width:800px) {
-		.row { flex-direction: column; }
-    	.col { flex: 0 0 100%; }
+		.row {
+			margin:0;
+		}
+		[class*=span-] {
+			width:100%;
+			margin-bottom: 2%;
+		}
 		[class*=span-], [class*=offset-] {
 			margin-left: 0;
 		}

@@ -4,7 +4,7 @@
 	"authors": [
 		"Timothy Long"
 	],
-	"description": "A responsive grid system, with trace elements of style and markup.",
+	"description": "A grid framework based on the flex display property.",
 	"main": "css/kindling.css",
 	"moduleType": [
 		"globals"
@@ -12,6 +12,7 @@
 	"keywords": [
 		"css",
 		"grid",
+		"flexbox",
 		"framework",
 		"design"
 	],
