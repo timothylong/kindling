@@ -12,8 +12,6 @@
 		margin: 0;
 		padding: 0;
 		position: relative;
-		-webkit-box-sizing:border-box;
-		-moz-box-sizing:border-box;
 		box-sizing:border-box;
 	}
 	body {
@@ -72,7 +70,7 @@
 	h1,h2,h3,h4,h5,h6 {
 		line-height:1.5;
 		font-weight:300;
-		margin:0 0 2rem;
+		margin:0 0 1.75rem;
 	}
 	h1 { font-size:300%; }
 	h2 { font-size:250%; }
@@ -80,13 +78,13 @@
 	h4 { font-size:125%; }
 	h5 { font-size:100%; }
 	h6 { font-size:80%; }
-	p { margin-bottom:2rem; }
+	p { margin-bottom:1.75rem; }
 
 /* Mobile */
 
 	@media only screen and (max-width:800px) {
 		.row { flex-direction: column; }
-    	.col { flex: 0 0 100%; }
+    		.col { flex: 0 0 100%; }
 		[class*=span-], [class*=offset-] {
 			margin-left: 0;
 		}
