@@ -1,5 +1,7 @@
 # [Kindling](http://timothylong.com/kindling)
 
+<img src="http://i.imgur.com/35uttOU.jpg" style="display: block; max-width: 100%;">
+
 A grid framework based on the flex display property.
 
 ## Usage
