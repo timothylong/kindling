@@ -2,8 +2,6 @@
 
 A grid framework based on the flex display property.
 
-<img src="http://i.imgur.com/660rvIR.jpg" style="display: block; max-width: 100%;">
-
 ## Usage
 
 **Basic Three-Column Layout**
