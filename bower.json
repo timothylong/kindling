@@ -1,10 +1,10 @@
 {
 	"name": "kindling",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"authors": [
 		"Timothy Long"
 	],
-	"description": "A grid framework based on the flex display property.",
+	"description": "A Sass grid system based on the flex display property.",
 	"main": "css/kindling.css",
 	"moduleType": [
 		"globals"
@@ -12,6 +12,7 @@
 	"keywords": [
 		"css",
 		"grid",
+		"sass",
 		"flexbox",
 		"framework",
 		"design"

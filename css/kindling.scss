@@ -24,7 +24,7 @@ $breakpoint:"only screen and (max-width:800px)";
 	margin-left: 0;
 }
 @for $i from 1 through $grid-columns {
-	.column-#{$i} { 
+	.span-#{$i} { 
 		flex: 0 0 100% / $grid-columns * $i - $grid-spacer;
 	}
 }
