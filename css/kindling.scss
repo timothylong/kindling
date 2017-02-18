@@ -1,0 +1,38 @@
+/* 
+	Kindling
+	timothylong.com/kindling
+*/
+$grid-max-width:1200px;
+$grid-columns:16;
+$grid-spacer:2%;
+$breakpoint:"only screen and (max-width:800px)";
+@mixin border-box {
+	box-sizing: border-box;
+}
+.row {
+	display: flex;
+}
+.container {
+	max-width: $grid-max-width;
+	margin: auto;
+}
+[class*=span-] {
+	flex: 1;
+	margin-left: $grid-spacer;
+}
+[class*=span-]:first-child {
+	margin-left: 0;
+}
+@for $i from 1 through $grid-columns {
+	.column-#{$i} { 
+		flex: 0 0 100% / $grid-columns * $i - $grid-spacer;
+	}
+}
+@media #{$breakpoint} {
+	.row {
+		flex-direction: column;
+	}
+	[class*=span-] {
+		margin-left: 0;
+	}
+}
