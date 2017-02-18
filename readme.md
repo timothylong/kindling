@@ -1,6 +1,6 @@
 # [Kindling](http://timothylong.com/kindling)
 
-A grid framework based on the flex display property.
+Sass grid framework based on the flex display property.
 
 ## Usage
 
@@ -11,16 +11,6 @@ A grid framework based on the flex display property.
 	<div class=“span-4”></div>
 	<div class=“span-4”></div>
 	<div class=“span-4”></div>
-</div>
-```
-
-**Offset Columns**
-
-```
-<div class=“row”>
-    <div class=“span-2”></div>
-    <div class=“span-2 offset-4”></div>
-    <div class=“span-4”></div>
 </div>
 ```
 
