@@ -1,16 +1,36 @@
 # [Kindling](http://timothylong.com/kindling)
 
-A Sass grid system based on the flex display property.
+A pocket-sized grid system; built on the flex display property.
 
-## Usage
+## Basic Usage
 
 **Three-Column Layout**
 
 ```
 <div class=“row”>
-	<div class=“span-4”></div>
-	<div class=“span-4”></div>
-	<div class=“span-4”></div>
+	<div class=“col-4”></div>
+	<div class=“col-4”></div>
+	<div class=“col-4”></div>
+</div>
+```
+
+**Offset Column Layout**
+
+```
+<div class=“row”>
+	<div class=“col-2 offset-6”></div>
+	<div class=“col-4”></div>
+</div>
+```
+
+**Gutters**
+
+```
+<div class=“row”>
+	<div class=“module”>
+		<div class=“col-2 offset-6”></div>
+		<div class=“col-4”></div>
+	</div>
 </div>
 ```
 

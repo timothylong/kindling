@@ -1,30 +1,44 @@
-/*
-	Kindling
-	timothylong.com/kindling
-*/
-.row {display:flex;}
+*,
+*:after,
+*:before { box-sizing: border-box; }
+.row { display: flex; }
 .container {
-	max-width:1200px;
-	margin:auto;
+	max-width: 1400px;
+	margin: auto;
 }
-[class*=span-] {
-	flex:1;
-	margin-left:2%;
+[class*=col-] {
+	flex: 1;
+	padding: 1rem;
 }
-[class*=span-]:first-child {margin-left:0;}
-.span-1 {flex:0 0 6.33333%;}
-.span-2 {flex:0 0 14.66667%;}
-.span-3 {flex:0 0 23%;}
-.span-4 {flex:0 0 31.33333%;}
-.span-5 {flex:0 0 39.66667%;}
-.span-6 {flex:0 0 48%;}
-.span-7 {flex:0 0 56.33333%;}
-.span-8 {flex:0 0 64.66667%;}
-.span-9 {flex:0 0 73%;}
-.span-10 {flex:0 0 81.33333%;}
-.span-11 {flex:0 0 89.66667%;}
-.span-12 {flex:0 0 98%;}
-@media only screen and (max-width:800px) {
-	.row {flex-direction:column;}
-	[class*=span-] {margin-left: 0;}
+.module {
+	padding: 1rem;
+	background-color: #ddd;
+}
+.col-1 { flex: 0 0 8.33333%; }
+.col-2 { flex: 0 0 16.66667%; }
+.col-3 { flex: 0 0 25%; }
+.col-4 { flex: 0 0 33.33333%; }
+.col-5 { flex: 0 0 41.66667%; }
+.col-6 { flex: 0 0 50%; }
+.col-7 { flex: 0 0 58.33333%; }
+.col-8 { flex: 0 0 66.66667%; }
+.col-9 { flex: 0 0 75%; }
+.col-10 { flex: 0 0 83.33333%; }
+.col-11 { flex: 0 0 91.66667%; }
+.col-12 { flex: 0 0 100%; }
+.offset-1 { margin-left: 8.33333%; }
+.offset-2 { margin-left: 16.66667%; }
+.offset-3 { margin-left: 25%; }
+.offset-4 { margin-left: 33.33333%; }
+.offset-5 { margin-left: 41.66667%; }
+.offset-6 { margin-left: 50%; }
+.offset-7 { margin-left: 58.33333%; }
+.offset-8 { margin-left: 66.66667%; }
+.offset-9 { margin-left: 75%; }
+.offset-10 { margin-left: 83.33333%; }
+.offset-11 { margin-left: 91.66667%; }
+.offset-12 { margin-left: 100%; }
+@media only screen and (max-width: 850px) {
+	.row { flex-direction: column; }
+	[class*=offset-] { margin-left: 0; }
 }

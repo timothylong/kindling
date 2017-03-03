@@ -1,13 +1,14 @@
-/* 
-	Kindling
-	timothylong.com/kindling
-*/
-$grid-max-width:1200px;
+$grid-max-width:1400px;
 $grid-columns:12;
-$grid-spacer:2%;
-$breakpoint:"only screen and (max-width:800px)";
+$grid-gutter-width:1rem;
+$breakpoint:"only screen and (max-width:850px)";
 @mixin border-box {
 	box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+	@include border-box;
 }
 .row {
 	display: flex;
@@ -16,23 +17,27 @@ $breakpoint:"only screen and (max-width:800px)";
 	max-width: $grid-max-width;
 	margin: auto;
 }
-[class*=span-] {
+[class*=col-] {
 	flex: 1;
-	margin-left: $grid-spacer;
+	padding: $grid-gutter-width;
 }
-[class*=span-]:first-child {
-	margin-left: 0;
+.module {
+	padding: 1rem;
+	background-color: #ddd;
 }
 @for $i from 1 through $grid-columns {
-	.span-#{$i} { 
-		flex: 0 0 100% / $grid-columns * $i - $grid-spacer;
+	.col-#{$i} { 
+		flex: 0 0 100% / $grid-columns * $i;
+	}
+	.offset-#{$i} { 
+		margin-left: 100% / $grid-columns * $i;
 	}
 }
 @media #{$breakpoint} {
 	.row {
 		flex-direction: column;
 	}
-	[class*=span-] {
+	[class*=offset-] {
 		margin-left: 0;
 	}
 }
