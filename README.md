@@ -2,7 +2,7 @@
 
 A pocket-sized grid system; built on the flex display property.
 
-## Basic Usage
+## Usage
 
 **Three-Column Layout**
 
