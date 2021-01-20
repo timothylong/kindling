@@ -1,4 +1,4 @@
-# [Kindling](http://timothylong.com/kindling)
+# Kindling
 
 A pocket-sized grid system; built on the flex display property.
 
