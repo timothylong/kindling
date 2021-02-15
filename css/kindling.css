@@ -6,7 +6,7 @@
 	max-width: 1400px;
 	margin: auto;
 }
-[class*=col-] {
+[class^=col-] {
 	-ms-flex: 1;
 	    flex: 1;
 	padding: 1rem;
@@ -41,5 +41,5 @@
 .offset-12 { margin-left: 100%; }
 @media only screen and (max-width: 850px) {
 	.row { -ms-flex-direction: column; flex-direction: column; }
-	[class*=offset-] { margin-left: 0; }
+	[class^=offset-] { margin-left: 0; }
 }
